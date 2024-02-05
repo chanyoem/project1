@@ -8,6 +8,7 @@ body {
     background-color: #FEF9E7;
 }
 
+/* navigation bar */
 .navbar{
     background-color: #865439;
 }
@@ -49,9 +50,16 @@ body {
 .nav_menu li a:hover {
     color: white;
 } 
+/* navigation bar END */
 
 .spacer{
     height: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu {
@@ -64,10 +72,29 @@ body {
 }
 
 .counter{
-    height: 300px;
-    background-color: #9C640C;
+    height: 200px;
+    background-color: #865439;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #D7B19D;
+}
+
+.row2{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.col img{
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
 }

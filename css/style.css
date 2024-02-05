@@ -8,6 +8,10 @@ body {
     background-color: #FEF9E7;
 }
 
+h2{
+    color: #402218;
+}
+
 /* navigation bar */
 .navbar{
     background-color: #865439;
@@ -97,4 +101,25 @@ body {
     width: 150px;
     padding-left: 20px;
     padding-right: 20px;
+}
+/* home page END */
+
+/* study room START */
+.header {
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.playlists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlists ul li a{ 
+    color: #402218;
 }
